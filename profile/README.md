@@ -22,3 +22,11 @@ All type definitions, function signatures and ordinal mappings are stored in the
 
 ### Want to build REDasm from source?
 The [workspace](https://github.com/redasm-dev/workspace) repo is your starting point.
+
+
+<div align="right">
+  
+  [![CI](https://github.com/redasm-dev/workspace/actions/workflows/ci.yml/badge.svg)](https://github.com/redasm-dev/workspace/actions/workflows/ci.yml)
+  [![Nightly](https://github.com/redasm-dev/workspace/actions/workflows/nightly.yml/badge.svg)](https://github.com/redasm-dev/workspace/actions/workflows/nightly.yml)
+  
+</div>
