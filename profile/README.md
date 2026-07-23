@@ -6,15 +6,15 @@
 </p>
 
 ### Repositories
-- [redasm](https://github.com/redasm-dev/redasm): GUI (written in C++17 & Qt6)
+- [redasm](https://github.com/redasm-dev/redasm): GUI, written in C++17 & Qt6
 - [core](https://github.com/redasm-dev/core): Engine, written in C17
 
 ### Plugin ecosystem
 | Repository | Description |
 |-----------:|:------------|
-| [loaders](https://github.com/redasm-dev/loaders) | File format parsers (PE, ELF, PS1, Xbox, ...) |
-| [processors](https://github.com/redasm-dev/processors) | CPU architectures (x86, MIPS, ...) |
-| [analyzers](https://github.com/redasm-dev/analyzers) | Post-analysis passes
+| [loaders](https://github.com/redasm-dev/loaders) | File format parsers (PE, ELF, PS1, Xbox, …) |
+| [processors](https://github.com/redasm-dev/processors) | CPU architectures (x86, MIPS, …) |
+| [analyzers](https://github.com/redasm-dev/analyzers) | Post-analysis passes |
 | [commands](https://github.com/redasm-dev/commands) | Disassembler-wide commands |
 
 ### Knowledge Base
