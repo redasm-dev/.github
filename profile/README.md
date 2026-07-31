@@ -10,7 +10,7 @@
 - [core](https://github.com/redasm-dev/core): Engine, written in C17
 
 ### Feedback
-All bug reports and suggestions are now in a [single bugtracker](https://github.com/redasm-dev/bugs).
+All bug reports and suggestions are now in a [dedicated bug tracker](https://github.com/redasm-dev/bugs).
 
 ### Plugin ecosystem
 | Repository | Description |
