@@ -9,6 +9,9 @@
 - [redasm](https://github.com/redasm-dev/redasm): GUI, written in C++17 & Qt6
 - [core](https://github.com/redasm-dev/core): Engine, written in C17
 
+### Feedback
+All bug reports and suggestions are now in a [single bugtracker](https://github.com/redasm-dev/bugs).
+
 ### Plugin ecosystem
 | Repository | Description |
 |-----------:|:------------|
