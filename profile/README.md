@@ -3,33 +3,40 @@
   <p align="center">
     REDasm is a free and open source disassembler designed for hobbyists and professional reverse engineers.
   </p>
+  <p align="center">
+    <a href="https://redasm.dev">redasm.dev</a> · <a href="https://github.com/redasm-dev/redasm/releases">Download</a> · <a href="https://github.com/redasm-dev/bugs">Report a bug</a>
+  </p>
 </p>
 
 ### Repositories
-- [redasm](https://github.com/redasm-dev/redasm): GUI, written in C++17 & Qt6
-- [core](https://github.com/redasm-dev/core): Engine, written in C17
 
-### Feedback
-All bug reports and suggestions are now in a [dedicated bug tracker](https://github.com/redasm-dev/bugs).
-
-### Plugin ecosystem
 | Repository | Description |
 |-----------:|:------------|
+| [redasm](https://github.com/redasm-dev/redasm) | GUI, written in C++17 & Qt6 |
+| [core](https://github.com/redasm-dev/core) | Engine and public C API, written in C17 |
 | [loaders](https://github.com/redasm-dev/loaders) | File format parsers (PE, ELF, PS1, Xbox, …) |
-| [processors](https://github.com/redasm-dev/processors) | CPU architectures (x86, MIPS, …) |
+| [processors](https://github.com/redasm-dev/processors) | CPU architectures (x86, MIPS, ARM, …) |
 | [analyzers](https://github.com/redasm-dev/analyzers) | Post-analysis passes |
 | [commands](https://github.com/redasm-dev/commands) | Disassembler-wide commands |
+| [kb](https://github.com/redasm-dev/kb) | Type definitions, function signatures and ordinal mappings, as TOML |
+| [workspace](https://github.com/redasm-dev/workspace) | Aggregate build and CI |
+| [bugs](https://github.com/redasm-dev/bugs) | Bug reports and suggestions, for every component |
 
-### Knowledge Base
-All type definitions, function signatures and ordinal mappings are stored in the [kb](https://github.com/redasm-dev/kb) repository as TOML.
+Loaders, processors, analyzers and commands are **plugins**: shared libraries loaded at runtime, built
+against the public API in `core`. Nothing there requires modifying the disassembler itself.
 
 ### Want to build REDasm from source?
+
 The [workspace](https://github.com/redasm-dev/workspace) repo is your starting point.
 
+### Want to report a bug? Propose a new feature?
+
+Everything goes to the [dedicated bug tracker](https://github.com/redasm-dev/bugs), whichever component it
+belongs to.
 
 <div align="right">
-  
+
   [![CI](https://github.com/redasm-dev/workspace/actions/workflows/ci.yml/badge.svg)](https://github.com/redasm-dev/workspace/actions/workflows/ci.yml)
   [![Nightly](https://github.com/redasm-dev/workspace/actions/workflows/nightly.yml/badge.svg)](https://github.com/redasm-dev/workspace/actions/workflows/nightly.yml)
-  
+
 </div>
