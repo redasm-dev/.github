@@ -23,7 +23,8 @@
 | [bugs](https://github.com/redasm-dev/bugs) | Bug reports and suggestions, for every component |
 
 Loaders, processors, analyzers and commands are **plugins**: shared libraries loaded at runtime, built
-against the public API in `core`. Nothing there requires modifying the disassembler itself.
+against the public API in `core`.  
+Nothing there requires modifying the disassembler itself.
 
 ### Want to build REDasm from source?
 
